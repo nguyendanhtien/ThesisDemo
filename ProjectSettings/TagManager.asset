@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - rayPlayer
+  - weapon
+  - Pond
+  - Sea
   layers:
   - Default
   - TransparentFX
@@ -40,4 +44,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Eff
+    uniqueID: 636417879
+    locked: 0
+  - name: New Layer 2
+    uniqueID: 2151382839
     locked: 0

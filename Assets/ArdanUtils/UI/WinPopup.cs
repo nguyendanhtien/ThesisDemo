@@ -7,9 +7,15 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class Popup : MonoBehaviour
+public partial class WinPopUp : MonoBehaviour
 {
     public Transform main;
+    public Button closeBtn;
+
+    private void Awake()
+    {
+        closeBtn.onClick.AddListener(Hide);
+    }
 
     public virtual void Show(object data)
     {
